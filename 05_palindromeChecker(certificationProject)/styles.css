@@ -1,0 +1,46 @@
+  body {
+    background-color:  #0a0a23;
+  }
+
+  .title {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #f1be32;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-family: "Tektur", sans-serif;
+    color: #f1be32;
+    background-color: brown;
+  }
+
+  .main-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  #text-input, #check-btn, #result {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: "Play", sans-serif;
+    color: black
+  }
+
+  #text-input {
+    background-color: blanchedalmond;
+  }
+
+  #check-btn {
+    margin: 0 33%;
+    background-color: darkgoldenrod;
+  }
+
+  #result {
+    height: 30px;
+    background-color: blanchedalmond;
+  }
+
