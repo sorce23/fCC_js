@@ -1,0 +1,23 @@
+body {
+   background-color: lightgray; 
+}
+
+.main-container {
+    font-family: "Gideon Roman", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+#convert-btn {
+    margin-top: 10px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.output-container {
+    text-align: center;
+}
