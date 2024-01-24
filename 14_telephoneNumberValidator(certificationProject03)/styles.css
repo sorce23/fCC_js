@@ -1,0 +1,51 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 0;
+}
+
+body {
+    background-color: lightseagreen;
+ }
+ 
+ .main-container {
+     font-family: "Urbanist", sans-serif;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ h1 {
+    text-align: center;
+}
+
+#user-input {
+    width: 200px;
+    height: 30px;
+    font-size: 1.3rem;
+}
+
+.btn {
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    margin: 10px auto;
+    color: #1b1b32;
+    background-color: #eedc32;
+    border-color: #feac32;
+    border-width: 3px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+  
+.btn:hover {
+    background-image: linear-gradient(#afad4d, #d7c2a1);
+}
+
+#result-div {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
